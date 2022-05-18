@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #eee;
+  }
+  
+  .header {
+    margin: 50px auto 20px auto;
+    color: black;
+  }
+  
+  #survey-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    background: rgba(77, 77, 77, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    padding: 50px;
+  }
+  
+  #name-label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  #email-label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  #number-label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    height: 25px;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+    padding-left: 5px;
+    border-style: none;
+  }
+  
+  #mensage {
+    height: 120px;
+    border-radius: 5px;
+  }
+  
+  select {
+    height: 25px;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+    padding-left: 5px;
+    border-style: none;
+  }
+  
+  .text-form {
+    text-align: left;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  button {
+    background: #878787;
+    border-style: none;
+    margin: 20px 0 5px 0;
+    height: 25px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  

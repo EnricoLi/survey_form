@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1 id="title">Title</h1>
+        <p id="description">Description text</p>
+      </div>
+
+      <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="Name"
+          placeholder="Enter your Name"
+          required
+        />
+
+        <label for="email" id="email-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="Email"
+          placeholder="Enter your Email"
+          required
+        />
+
+        <label for="number" id="number-label">Age</label>
+        <input
+          type="number"
+          id="number"
+          name="Age"
+          placeholder="Age"
+          min="10"
+          max="99"
+        />
+
+        <p class="text-form">Select an option</p>
+        <select id="dropdown" name="role" required>
+          <option disabled selected value>Select an option</option>
+          <option value="Option 1">Option 1</option>
+          <option value="Option 1">Option 2</option>
+        </select>
+
+        <div>
+          <p class="text-form">Choose one</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Option 1
+          </label>
+          <label class="radio-label">
+            <input
+              name="user-recommend"
+              value="op2"
+              type="radio"
+              class="input-radio"
+            />Option 2
+          </label>
+        </div>
+
+        <p class="text-form">Multiple choices</p>
+
+        <label>
+          <input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />
+          Choice A
+        </label>
+
+        <label>
+          <input
+            name="prefer"
+            value="op2"
+            type="checkbox"
+            class="input-checkbox"
+          />
+          Choice B
+        </label>
+
+        <p>Send your message</p>
+        <textarea
+          id="mensage"
+          name="mensage"
+          placeholder="Enter your message here..."
+        ></textarea>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
